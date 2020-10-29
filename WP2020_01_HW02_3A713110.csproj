@@ -64,6 +64,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -79,9 +80,12 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="res\65d37cb62a8b3b73ca8a214460312fcc.png" />
-    <Content Include="res\下載 %281%29.jfif" />
-    <Content Include="res\下載.jfif" />
+    <None Include="Resources\003.jfif" />
+    <None Include="Resources\002.jfif" />
+    <None Include="Resources\001.png" />
+    <Content Include="res\001.png" />
+    <Content Include="res\002.jfif" />
+    <Content Include="res\003.jfif" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
