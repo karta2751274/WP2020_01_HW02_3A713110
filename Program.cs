@@ -16,7 +16,7 @@ namespace WP2020_01_HW02_3A713110
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new frmGame());
         }
     }
 }
